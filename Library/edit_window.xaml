@@ -1,0 +1,30 @@
+﻿<Window x:Class="Library.edit_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library"
+        mc:Ignorable="d"
+        Title="Edit an Existing Item" Height="523.001" Width="535" ResizeMode="NoResize" Closing="Window_Closing">
+    <Grid Margin="0,0,-6,1">
+
+        <Label Content="Editing an Existing Item " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" Margin="141,30,0,0" Height="37" Width="222"/>
+        <Label Content="        Title:" HorizontalAlignment="Left" Margin="99,326,0,0" VerticalAlignment="Top" Height="26" Width="61"/>
+        <Label Content="        Author:" HorizontalAlignment="Left" Margin="85,366,0,0" VerticalAlignment="Top" Height="26" Width="75"/>
+        <Label Content="        ID:" HorizontalAlignment="Left" Margin="112,214,0,0" VerticalAlignment="Top" Height="26" Width="50"/>
+        <TextBox x:Name="new_author" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" Margin="180,369,0,0"/>
+        <TextBox x:Name="new_title" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" Margin="180,328,0,0"/>
+        <Button x:Name="cancel_btn" Content="Cancel" HorizontalAlignment="Left" Width="75" Margin="143,440,0,0" Click="Cancel_btn_Click" Height="22" VerticalAlignment="Top" RenderTransformOrigin="0.293,-2.909"/>
+        <Button x:Name="submit_btn" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="288,440,0,0" Click="Submit_btn_Click" Height="22"/>
+        <Label Content="Note: If there are no changes then leave it as it is. &#xA;You can not change the id since it is used to identify the book" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="99,81,0,0" Height="42" Width="379"/>
+        <Label x:Name="id_label" Content="" HorizontalAlignment="Left" Margin="182,214,0,0" VerticalAlignment="Top" Width="36" Height="26"/>
+        <Label Content="Holder:" HorizontalAlignment="Left" Margin="113,146,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.388,0.231"/>
+        <Label x:Name="new_holder" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="182,146,0,0"/>
+        <Label Content="Status:" HorizontalAlignment="Left" Margin="117,177,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="new_status" Content="" HorizontalAlignment="Left" Margin="182,177,0,0" VerticalAlignment="Top"/>
+        <Label Content="ISBN:" HorizontalAlignment="Left" Margin="124,251,0,0" VerticalAlignment="Top"/>
+        <Label Content="GRBC Code:" HorizontalAlignment="Left" Margin="89,288,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="new_isbn" HorizontalAlignment="Left" Height="23" Margin="180,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
+        <TextBox x:Name="new_grbc_code" HorizontalAlignment="Left" Height="23" Margin="180,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
+    </Grid>
+</Window>

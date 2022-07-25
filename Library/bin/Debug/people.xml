@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<root>
+  <Person name="Emily G.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+    <book id="7" action="Borrowed" />
+    <book id="7" action="Returned">
+      <date month="Jun" year="2019" day="18" />
+    </book>
+    <book id="2" action="Borrowed">
+      <date month="06" year="2019" day="19" />
+    </book>
+    <book id="2" action="Returned">
+      <date month="06" year="2019" day="19" />
+    </book>
+    <book id="13" ISBN="0" GRBC_Code="25" title="fe" author="feiu" action="Borrowed">
+      <date month="06" year="2019" day="21" />
+    </book>
+    <book id="1" ISBN="123" GRBC_Code="345" title="Hi" author="Bye" action="Returned">
+      <date month="07" year="2019" day="17" />
+    </book>
+  </Person>
+  <Person name="Elizabeth B.">
+    <book id="123" action="Borrowed">
+      <date month="April" day="11" year="2011" />
+    </book>
+    <book id="123" action="Borrowed">
+      <date month="April" day="11" year="2011" />
+    </book>
+    <book id="13" action="Borrowed">
+      <date month="Jun" year="2019" day="17" />
+    </book>
+    <book id="13" action="Returned">
+      <date month="Jun" year="2019" day="17" />
+    </book>
+    <book id="9" action="Borrowed">
+      <date month="Jun" year="2019" day="18" />
+    </book>
+    <book id="9" action="Returned">
+      <date month="Jun" year="2019" day="18" />
+    </book>
+    <book id="7" action="Returned">
+      <date month="06" year="2019" day="20" />
+    </book>
+    <book id="12" action="Borrowed">
+      <date month="06" year="2019" day="20" />
+    </book>
+    <book id="12" action="Returned">
+      <date month="06" year="2019" day="20" />
+    </book>
+    <book id="7" action="Returned">
+      <date month="06" year="2019" day="20" />
+    </book>
+    <book id="6" action="Returned">
+      <date month="06" year="2019" day="20" />
+    </book>
+    <book id="1" ISBN="1000" GRBC_Code="200" title="Heart of Darkness" author="Joseph Conrad" action="Borrowed">
+      <date month="10" year="2019" day="14" />
+    </book>
+    <book id="1" ISBN="1000" GRBC_Code="200" title="Heart of Darkness" author="Joseph Conrad" action="Returned">
+      <date month="10" year="2019" day="14" />
+    </book>
+    <book id="1" ISBN="1000" GRBC_Code="200" title="Heart of Darkness" author="Joseph Conrad" action="Returned">
+      <date month="10" year="2019" day="14" />
+    </book>
+    <book id="1" ISBN="1000" GRBC_Code="200" title="Heart of Darkness" author="Joseph Conrad" action="Returned">
+      <date month="10" year="2019" day="14" />
+    </book>
+    <book id="13" ISBN="1012" GRBC_Code="212" title="Howards End" author="E.M. Forster" action="Borrowed">
+      <date month="10" year="2019" day="18" />
+    </book>
+    <book id="13" ISBN="1012" GRBC_Code="212" title="Howards End" author="E.M. Forster" action="Returned">
+      <date month="10" year="2019" day="18" />
+    </book>
+  </Person>
+  <Person name="Indeera S.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+    <book id="8" action="Borrowed">
+      <date month="06" year="2019" day="19" />
+    </book>
+    <book id="8" action="Returned">
+      <date month="06" year="2019" day="19" />
+    </book>
+  </Person>
+  <Person name="Florin B.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+  </Person>
+  <Person name="Isabel M.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+  </Person>
+  <Person name="Jason G.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+    <book id="6" action="Borrowed" />
+    <book id="6" action="Returned">
+      <date month="Jun" year="2019" day="17" />
+    </book>
+  </Person>
+  <Person name="Linah H.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+    <book id="9" action="Borrowed">
+      <date month="Jun" year="2019" day="17" />
+    </book>
+    <book id="9" action="Returned">
+      <date month="Jun" year="2019" day="17" />
+    </book>
+  </Person>
+  <Person name="Michelle P.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+    <book id="2" ISBN="23" GRBC_Code="6776" title="Hi V" author="Elizabeth" action="Borrowed">
+      <date month="10" year="2019" day="14" />
+    </book>
+  </Person>
+  <Person name="Davis S.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+    <book id="2" action="Returned">
+      <date month="Jun" year="2019" day="17" />
+    </book>
+    <book id="2" ISBN="23" GRBC_Code="6776" title="Hi V" author="Elizabeth" action="Borrowed">
+      <date month="07" year="2019" day="1" />
+    </book>
+    <book id="2" ISBN="23" GRBC_Code="6776" title="Hi V" author="Elizabeth" action="Returned">
+      <date month="07" year="2019" day="1" />
+    </book>
+    <book id="3" ISBN="1002" GRBC_Code="202" title="Women In Love" author="D.H. Lawrence" action="Borrowed">
+      <date month="10" year="2019" day="14" />
+    </book>
+    <book id="3" ISBN="1002" GRBC_Code="202" title="Women In Love" author="D.H. Lawrence" action="Returned">
+      <date month="10" year="2019" day="14" />
+    </book>
+  </Person>
+  <Person name="Maya L.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+    <book id="5" action="Borrowed">
+      <date month="MMM" year="2019" day="17" />
+    </book>
+    <book id="7" action="Returned">
+      <date month="06" year="2019" day="19" />
+    </book>
+    <book id="8" action="Returned">
+      <date month="06" year="2019" day="20" />
+    </book>
+    <book id="8" action="Returned">
+      <date month="06" year="2019" day="20" />
+    </book>
+    <book id="1" action="Returned">
+      <date month="06" year="2019" day="20" />
+    </book>
+    <book id="12" ISBN="0" GRBC_Code="24" title="H" author="FMEF" action="Returned">
+      <date month="06" year="2019" day="21" />
+    </book>
+  </Person>
+  <Person name="Andrew A.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+  </Person>
+  <Person name="Cecilia N.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+  </Person>
+  <Person name="Katie K.">
+    <book id="" action="Borrowed">
+      <date month="November" day="1" year="2003" />
+    </book>
+    <book id="" action="Returned">
+      <date month="May" day="2" year="2019" />
+    </book>
+  </Person>
+  <Person name="JJ">
+    <book id="10" action="Borrowed">
+      <date month="Jun" year="2019" day="17" />
+    </book>
+    <book id="10" action="Returned">
+      <date month="Jun" year="2019" day="19" />
+    </book>
+  </Person>
+</root>
