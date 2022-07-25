@@ -1,0 +1,2 @@
+This project was created to help a librarian at my church use a library application that was better suited for her needs. The emphasis on placed on having a simple design that included everything on one window (minizing the issue that the previous application had with many windows and tabs) and reduced latency when accessing the database. A sample window of the project has been included (note: not all data has been uploaded).
+![image](https://user-images.githubusercontent.com/52976547/180698118-b1cec92e-2281-47f1-aa3e-7b133a6b17b4.png)
